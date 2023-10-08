@@ -1,0 +1,166 @@
+
+body{
+  height: 2000px;
+  /* width: 2000px; */
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  align-items: center;
+  justify-content: center;
+  /* border: solid pink 1px; */
+}
+
+.cell1,
+.cell2,
+.cell3,
+.cell4,
+.cell5,
+.cell7,
+.cell6,
+.cell8,
+.cell9{
+  background-color: rgb(255, 255, 255);
+  height: 80px;
+  border: solid rgb(0, 0, 0) 4px;
+  cursor: pointer;
+
+}
+.cell2{
+  border-top: none;
+}
+
+.cell1{
+  border-top: none;
+  border-left: none;
+}
+
+.cell3{
+  border-top: none;
+  border-right: none;
+}
+
+.cell4{
+  border-left: none;
+}
+
+.cell6{
+  border-right: none;
+}
+
+.cell7{
+  border-bottom: none;
+  border-left: none;
+}
+
+.cell8{
+  border-bottom: none;
+}
+
+.cell9{
+  border-bottom: none;
+  border-right: none;
+}
+
+.x-image{
+  height: 60px;
+}
+.x-image1{
+  height: 80px;
+  font-weight: bold;
+}
+
+.o-image{
+  height: 70px;
+}
+.o-image1{
+  height: 30px;
+}
+
+.reset-button{
+  border: none;
+  height: 40px;
+  width: 140px;
+  margin-top: 25px;
+  font-weight: 600;
+  background-color: rgb(226, 226, 226);
+  border-radius: 2px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.display-result{
+  font-size: 25px;
+  height: 30px;
+}
+
+.line-0{
+  border-top: solid 9px rgb(210, 16, 16);
+  height: 1px;
+  width: 300px;
+  position:absolute;
+  top: 122px;
+}
+
+.line-1{
+  border-bottom: solid 9px rgb(210, 16, 16);
+  width: 300px;
+  position:absolute;
+  top: 205px;
+
+}
+
+.line-2{
+  border-bottom: solid 9px rgb(210, 16, 16);
+  width: 300px;
+  position:absolute;
+  top: 285px;
+}
+
+
+
+.line-3{
+  border-left: solid 9px rgb(210, 16, 16);
+  width: 205px;
+  height: 245px;
+  position: absolute;
+  top: 85px;
+  }
+
+.line-4{
+  border-bottom: solid 9px rgb(210, 16, 16);
+  width: 250px;
+  position:absolute;
+  top: 205px;
+
+  transform: rotate(90deg);
+}
+.line-5{
+  border-right: solid 9px rgb(210, 16, 16);
+  width: 205px;
+  height: 245px;
+  position: absolute;
+  top: 85px;
+}
+
+.line-6{
+  border-bottom: solid 9px rgb(210, 16, 16);
+  width: 380px;
+  position:absolute;
+  top: 205px;
+  transform: rotate(39deg);
+}
+
+.line-7{
+  border-bottom: solid 9px rgb(210, 16, 16);
+  width: 380px;
+  position:absolute;
+  top: 205px;
+  transform: rotate(140deg);
+}
